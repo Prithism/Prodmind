@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 /**
  * WaitlistForm: A minimalist, high-contrast form for capturing user emails.
- * Matches the 'ProdMind' editorial paper aesthetic.
+ * Matches the 'Claryo' editorial paper aesthetic.
  */
 export default function WaitlistForm() {
   const [email, setEmail] = useState("");

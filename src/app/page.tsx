@@ -57,7 +57,7 @@ export default function Home() {
       {/* Navbar - Using Container max-width to align with content */}
       <div className="w-full border-b border-subtle flex justify-center sticky top-0 bg-paper/90 backdrop-blur-sm z-50">
         <nav className="w-full max-w-[1240px] flex justify-between items-center py-6 px-8 sm:px-16">
-          <span className="text-xl font-medium tracking-tight text-primary">ProdMind</span>
+          <span className="text-xl font-medium tracking-tight text-primary">Claryo</span>
           <Button 
             variant="secondary" 
             className="!py-1.5 !px-5 text-xs tracking-wide uppercase"
@@ -74,7 +74,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
             <div>
               <span className="text-[11px] font-semibold uppercase tracking-[0.3em] text-secondary/40 block mb-6 px-1">
-                ProdMind
+                Claryo
               </span>
               <h1 className="text-6xl sm:text-[7vw] lg:text-[6.5vw] font-medium tracking-[-0.05em] text-primary break-words leading-[0.95] first-letter:tracking-[-0.07em]">
                 Cursor for<br /> Product<br /> Managers
@@ -278,7 +278,7 @@ export default function Home() {
         <Section id="waitlist" className="text-center pb-32 pt-24 sm:pt-48">
           <div className="max-w-2xl mx-auto flex flex-col items-center">
             <h2 className="text-3xl sm:text-6xl font-medium tracking-tight text-primary leading-tight">
-              Be among the first<br /> to try ProdMind.
+              Be among the first<br /> to try Claryo.
             </h2>
             <p className="mt-8 text-xl text-secondary font-light">
               We&apos;re opening access in batches. Secure your spot.
@@ -296,7 +296,7 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="w-full py-20 border-t border-subtle text-center text-secondary text-xs uppercase tracking-widest font-light">
-        <p>© {new Date().getFullYear()} ProdMind — Strictly Editorial.</p>
+        <p>© {new Date().getFullYear()} Claryo — Strictly Editorial.</p>
       </footer>
     </main>
   );

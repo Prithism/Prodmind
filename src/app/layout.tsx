@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ProdMind | Know what to build next",
-  description: "ProdMind analyzes user feedback and turns it into clear product decisions.",
+  title: "Claryo | Know what to build next",
+  description: "Claryo analyzes user feedback and turns it into clear product decisions.",
 };
 
 export default function RootLayout({
