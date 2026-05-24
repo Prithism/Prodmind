@@ -90,7 +90,11 @@ export default function Home() {
                 >
                   Get Early Access
                 </Button>
-                <Button variant="secondary" className="!px-10 text-lg tracking-tight whitespace-nowrap">
+                <Button 
+                  variant="secondary" 
+                  className="!px-10 text-lg tracking-tight whitespace-nowrap"
+                  onClick={() => window.location.href = 'https://claryo-peach.vercel.app/'}
+                >
                   See Demo
                 </Button>
               </div>
